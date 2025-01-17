@@ -1,0 +1,72 @@
+.file-btn {
+    width: 100%;
+    height: 100px;
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    color: rgb(71, 5, 134);
+    background-color: #fff;
+    border: 1.5px dashed #9b51e0;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: all 0.3 ease;
+}
+
+
+
+.selected-file {
+    padding-block: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #f3ecff;
+    border: 1.5px solid #e8d9fe;
+    border-radius: 20px;
+    margin-top: 20px;
+
+}
+
+.selected-file p {
+    font-size: 13px;
+    font-weight: 500;
+    margin-left: 15px;
+}
+
+.backup-btn {
+    
+    color: #8A3FFC;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin: 0;
+    font-size: 13px;
+    padding: 5px 10px; 
+    margin-block: 10px;
+    border-radius:5px;
+     text-decoration: none;
+    
+}
+.selected-file button {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #8A3FFC;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin: 0;
+    font-size: 13px;
+}
+
+.selected-file button:hover {
+    color: #fff;
+    background-color: #8A3FFC;
+}

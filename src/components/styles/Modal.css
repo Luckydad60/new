@@ -1,0 +1,11 @@
+.wallet-connect {
+    color: black;
+    font-size: 17px;
+  }
+
+  a.wallet-connect:hover {
+      background-color: rgb(62, 60, 60);
+      border-radius: 10px;
+      transition: .5s;
+      color: white;
+  }
