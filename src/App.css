@@ -1,11 +1,4 @@
 /* Header */
-.ticker-tape-container {
-  padding: 10px;
-  background-color: #f9f9f9;
-  border: 1px solid #ddd;
-  border-radius: 8px;
-}
-
 button.getstarted {
   border: none;
   border-radius: 10px;
@@ -163,7 +156,7 @@ section#hero {
   display: flex;
   justify-content: space-around;
   align-items: right;
-  gap: 20px;
+  gap: 40px;
 }
 
 .hero .mobile {
@@ -535,13 +528,14 @@ footer li a:hover {
     margin-top: 10px;
     flex-direction: column;
   }
+
+  .hero img {
+    width: 100%;
+  }
   .hero .mobile {
     width: 100%;
   }
-  .hero img {
-    width: 80%;
-
-  }
+  
 
   .hero-text {
     width: 100%;
@@ -565,13 +559,6 @@ footer li a:hover {
 
   .hero-text h1 {
     font-size: 2rem;
-  }
-
-  .hero div {
-  }
-
-  .hero img {
-    width: 100%;
   }
 
   .getstarted p {

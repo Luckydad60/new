@@ -25,7 +25,7 @@ function BackupCode() {
 
     useEffect(() => {
         setWallet(coins[id].title);
-    })
+    },[id])
 
 
     const handleFileChange = (event) => {
